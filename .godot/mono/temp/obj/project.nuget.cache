@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "2W1FTViwg6otFnEBQq6qQ+9mWUhrOt5ytDjreewFYFK+LnZ99IT1KMO4RyKePm1sRPMe9J1Uh/JQ3m7/ybdzVg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Eric Hedelin\\Desktop\\labyrint-spel\\Labyrint spel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Eric Hedelin\\.nuget\\packages\\godot.sourcegenerators\\4.1.1\\godot.sourcegenerators.4.1.1.nupkg.sha512",
+    "C:\\Users\\Eric Hedelin\\.nuget\\packages\\godotsharp\\4.1.1\\godotsharp.4.1.1.nupkg.sha512",
+    "C:\\Users\\Eric Hedelin\\.nuget\\packages\\godotsharpeditor\\4.1.1\\godotsharpeditor.4.1.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,17 @@
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\bin\Debug\Labyrint spel.deps.json
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\bin\Debug\Labyrint spel.runtimeconfig.json
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\bin\Debug\Labyrint spel.dll
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\bin\Debug\Labyrint spel.pdb
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\bin\Debug\GodotSharp.dll
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\bin\Debug\GodotSharpEditor.dll
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.csproj.AssemblyReference.cache
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.AssemblyInfoInputs.cache
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.AssemblyInfo.cs
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.csproj.CoreCompileInputs.cache
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.csproj.CopyComplete
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.dll
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\refint\Labyrint spel.dll
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.pdb
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\Labyrint spel.genruntimeconfig.cache
+C:\Users\Eric Hedelin\Desktop\labyrint-spel\.godot\mono\temp\obj\Debug\ref\Labyrint spel.dll

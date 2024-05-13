@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://cqkowwn8c3283"]
+
+[ext_resource type="Script" path="res://spelare.cs" id="1_ywy71"]
+[ext_resource type="Texture2D" uid="uid://bdmwecuko5vjc" path="res://pngimg.com - spongebob_PNG32.png" id="2_d8uad"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_aykr8"]
+size = Vector2(286.898, 247.512)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_ywy71")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-104.5, 258.5)
+scale = Vector2(0.470551, 0.480784)
+shape = SubResource("RectangleShape2D_aykr8")
+
+[node name="Player" type="Sprite2D" parent="."]
+position = Vector2(-105, 270)
+scale = Vector2(0.0862219, 0.0828066)
+texture = ExtResource("2_d8uad")
+
+[connection signal="child_entered_tree" from="CollisionShape2D" to="." method="_on_collision_shape_2d_child_entered_tree"]

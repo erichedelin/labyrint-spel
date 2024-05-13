@@ -1,0 +1,19 @@
+[gd_scene load_steps=3 format=3 uid="uid://cyc6e4qm12fxb"]
+
+[ext_resource type="Script" path="res://timer.gd" id="1_b3oah"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_fix2e"]
+font_size = 100
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_b3oah")
+
+[node name="Timer" type="Timer" parent="."]
+autostart = true
+
+[node name="Label" type="Label" parent="."]
+offset_right = 551.0
+offset_bottom = 245.0
+label_settings = SubResource("LabelSettings_fix2e")
+
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]

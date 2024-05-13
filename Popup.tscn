@@ -1,0 +1,22 @@
+[gd_scene load_steps=4 format=3 uid="uid://16b766vnybdj"]
+
+[ext_resource type="Script" path="res://Popup.gd" id="1_kp1ur"]
+[ext_resource type="AudioStream" uid="uid://d1vy8xrqo6mkq" path="res://ljud/Knocking-on-door-five-knocks-www.fesliyanstudios.com.mp3" id="2_5u734"]
+
+[sub_resource type="SegmentShape2D" id="SegmentShape2D_e5tn4"]
+a = Vector2(21, 0)
+b = Vector2(247, 0)
+
+[node name="Popup" type="Node2D"]
+script = ExtResource("1_kp1ur")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, 16)
+shape = SubResource("SegmentShape2D_e5tn4")
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_5u734")
+
+[connection signal="body_entered" from="Area2D" to="." method="_on_area_2d_body_entered"]

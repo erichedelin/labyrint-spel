@@ -1,0 +1,29 @@
+[gd_scene load_steps=5 format=3 uid="uid://cua6pyw4jlj8u"]
+
+[ext_resource type="Texture2D" uid="uid://c3ija1pco7enp" path="res://yellow-button-sign-png.webp" id="1_b1n1f"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_oswam"]
+radius = 37.1214
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cby12"]
+radius = 38.0132
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_kxlad"]
+size = Vector2(517, 87)
+
+[node name="Wall" type="StaticBody2D"]
+
+[node name="Yellow-button-sign-png" type="Sprite2D" parent="."]
+scale = Vector2(1.85778, 1.335)
+texture = ExtResource("1_b1n1f")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+position = Vector2(-270, 0)
+shape = SubResource("CircleShape2D_oswam")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(268, -1)
+shape = SubResource("CircleShape2D_cby12")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_kxlad")
